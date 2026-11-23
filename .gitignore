@@ -1,0 +1,24 @@
+# Dependencies & build caches
+web/node_modules/
+web/.vite/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local QA run outputs
+runs/
+derived_data/
+*.ipa
+*.xcarchive
+
+# OS & environment files
+.DS_Store
+*.log
+.env
+.env.*
+
+# Note: dist/app.html is intentionally committed as a single-file MCP App bundle
+# so users can link or clone the plugin directly into ~/.gemini/config/plugins/ios-agent-testers/
+# without requiring a manual Node.js build step.

@@ -1,0 +1,21 @@
+{
+  "name": "ios-agent-testers",
+  "displayName": "iOS Agent Testers",
+  "description": "Multi-persona iOS Simulator QA engine and live Antigravity MCP App dashboard: explore, reproduce bugs, audit accessibility, and compare builds across 10 diverse iPhone and iPad personas with live MJPEG streaming and human takeover.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Rea1Felix",
+    "url": "https://github.com/Rea1Felix"
+  },
+  "homepage": "https://github.com/Rea1Felix/ios-agent-testers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rea1Felix/ios-agent-testers"
+  },
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Run a smoke QA test (clara, amira, sven) on my iOS app and open the live QA dashboard",
+    "Reproduce a GitHub issue on my iOS app across multiple personas and summarize the evidence",
+    "Compare the latest two iOS QA runs and highlight regressions, fixed issues, and score deltas"
+  ]
+}

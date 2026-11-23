@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "testers": {
+      "command": "bash",
+      "args": ["${PLUGIN_ROOT}/server/bin/ios-agent-testers-server"],
+      "env": {
+        "IOS_AGENT_TESTERS_HTML": "${PLUGIN_ROOT}/dist/app.html",
+        "IOS_AGENT_TESTERS_DATA": "${PLUGIN_DATA}"
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "clara",
+    "platform": "ios",
+    "profile": "Designer, 34, notices every misaligned pixel, refuses location access.",
+    "goal": "Explore the app and judge whether it is worth paying for.",
+    "locale": "fr-FR",
+    "geo": [48.8566, 2.3522],
+    "device": {
+      "simulator": "iPhone SE (3rd generation)",
+      "ios": 18,
+      "text_size": "large",
+      "theme": "light"
+    }
+  },
+  {
+    "id": "jonas",
+    "platform": "ios",
+    "profile": "Engineer, 45, uses an iPad with a large accessibility text size.",
+    "goal": "Complete the main task, then try to break it with odd inputs.",
+    "locale": "de-DE",
+    "geo": [52.52, 13.405],
+    "device": {
+      "simulator": "iPad Air 11-inch (M2)",
+      "ios": 18,
+      "text_size": "accessibility-extra-large",
+      "theme": "dark"
+    }
+  },
+  {
+    "id": "noah",
+    "platform": "ios",
+    "profile": "Sales rep, 41, big iPhone, the largest standard text size, always in a hurry.",
+    "goal": "Do the main task quickly between two meetings.",
+    "locale": "en-US",
+    "geo": [30.2672, -97.7431],
+    "device": {
+      "simulator": "iPhone 16 Pro Max",
+      "ios": 18,
+      "text_size": "extra-extra-extra-large",
+      "theme": "light"
+    }
+  },
+  {
+    "id": "yuki",
+    "platform": "ios",
+    "profile": "Student, 20, reads Japanese, dark mode, expects a polished app.",
+    "goal": "Explore everything and decide whether she would recommend it to a friend.",
+    "locale": "ja-JP",
+    "geo": [34.6937, 135.5023],
+    "device": {
+      "simulator": "iPhone 16",
+      "ios": 18,
+      "text_size": "medium",
+      "theme": "dark"
+    }
+  },
+  {
+    "id": "amira",
+    "platform": "ios",
+    "profile": "Product manager, 31, reads Arabic, expects a mirrored right-to-left layout.",
+    "goal": "Complete the main task and check that navigation, icons and numbers read right to left.",
+    "locale": "ar-SA",
+    "geo": [24.7136, 46.6753],
+    "device": {
+      "simulator": "iPhone 16 Pro",
+      "ios": 18,
+      "text_size": "large",
+      "theme": "light"
+    }
+  },
+  {
+    "id": "mateo",
+    "platform": "ios",
+    "profile": "Musician, 26, reads Spanish, holds an iPad mini in one hand.",
+    "goal": "Use the main feature, leave the app in the middle of it, then come back.",
+    "locale": "es-MX",
+    "geo": [19.4326, -99.1332],
+    "device": {
+      "simulator": "iPad mini (A17 Pro)",
+      "ios": 18,
+      "text_size": "large",
+      "theme": "light"
+    }
+  },
+  {
+    "id": "sven",
+    "platform": "ios",
+    "profile": "Retired engineer, 80, reads Swedish, the largest accessibility text on a small iPhone.",
+    "goal": "Complete one task: every button must stay readable and reachable.",
+    "locale": "sv-SE",
+    "geo": [59.3293, 18.0686],
+    "device": {
+      "simulator": "iPhone SE (3rd generation)",
+      "ios": 18,
+      "text_size": "accessibility-extra-extra-extra-large",
+      "theme": "dark"
+    }
+  },
+  {
+    "id": "giulia",
+    "platform": "ios",
+    "profile": "Lawyer, 55, reads Italian, larger accessibility text, reads every word.",
+    "goal": "Read every screen, including the fine print, and check that no text is cut off.",
+    "locale": "it-IT",
+    "geo": [41.9028, 12.4964],
+    "device": {
+      "simulator": "iPhone 16 Plus",
+      "ios": 18,
+      "text_size": "accessibility-medium",
+      "theme": "light"
+    }
+  },
+  {
+    "id": "minjun",
+    "platform": "ios",
+    "profile": "Architect, 33, reads Korean, big iPad with small text, likes dense layouts.",
+    "goal": "Use the app on the big screen and report wasted space or stretched layouts.",
+    "locale": "ko-KR",
+    "geo": [37.5665, 126.978],
+    "device": {
+      "simulator": "iPad Pro 13-inch (M4)",
+      "ios": 18,
+      "text_size": "small",
+      "theme": "dark"
+    }
+  },
+  {
+    "id": "wei",
+    "platform": "ios",
+    "profile": "Accountant, 45, reads Simplified Chinese, careful, checks every number.",
+    "goal": "Complete the main task and check translations, dates and number formats.",
+    "locale": "zh-CN",
+    "geo": [31.2304, 121.4737],
+    "device": {
+      "simulator": "iPhone 16e",
+      "ios": 18,
+      "text_size": "extra-large",
+      "theme": "light"
+    }
+  }
+]

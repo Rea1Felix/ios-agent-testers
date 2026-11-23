@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="ipadScreen" x1="18" y1="22" x2="86" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="55%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="iphoneScreen" x1="60" y1="36" x2="106" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="chassis" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="80" y1="14" x2="114" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back device: iPad simulator -->
+  <rect x="16" y="20" width="72" height="88" rx="13" fill="url(#chassis)" stroke="#94A3B8" stroke-width="2.8"/>
+  <rect x="22" y="26" width="60" height="76" rx="8" fill="url(#ipadScreen)"/>
+
+  <!-- 2x2 Persona matrix tiles inside iPad screen -->
+  <rect x="28" y="34" width="21" height="24" rx="4" fill="#FFFFFF" fill-opacity="0.22" stroke="#E0F2FE" stroke-opacity="0.6" stroke-width="1.2"/>
+  <rect x="55" y="34" width="21" height="24" rx="4" fill="#FFFFFF" fill-opacity="0.18" stroke="#E0F2FE" stroke-opacity="0.5" stroke-width="1.2"/>
+  <rect x="28" y="64" width="21" height="24" rx="4" fill="#FFFFFF" fill-opacity="0.18" stroke="#E0F2FE" stroke-opacity="0.5" stroke-width="1.2"/>
+  <!-- A11y highlight dashed box on lower-left tile -->
+  <rect x="31" y="75" width="15" height="9" rx="2" stroke="#FBBF24" stroke-width="1.6" stroke-dasharray="3 2"/>
+
+  <!-- Mini persona avatar dots on upper tiles -->
+  <circle cx="38.5" cy="43" r="4" fill="#FFFFFF" fill-opacity="0.9"/>
+  <path d="M32 54 C33 50 44 50 45 54" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="65.5" cy="43" r="4" fill="#E0F2FE" fill-opacity="0.85"/>
+  <path d="M59 54 C60 50 71 50 72 54" stroke="#E0F2FE" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Front device: iPhone simulator overlapping lower-right -->
+  <rect x="58" y="36" width="52" height="78" rx="13" fill="url(#chassis)" stroke="#CBD5E1" stroke-width="2.8"/>
+  <rect x="64" y="42" width="40" height="66" rx="8" fill="url(#iphoneScreen)"/>
+
+  <!-- Dynamic Island -->
+  <rect x="75" y="45.5" width="18" height="4" rx="2" fill="#0F172A"/>
+
+  <!-- Screen inspection reticle & UI bars inside iPhone -->
+  <rect x="70" y="55" width="28" height="7" rx="3" fill="#FFFFFF" fill-opacity="0.28"/>
+  <rect x="70" y="66" width="28" height="19" rx="4" fill="#0F172A" fill-opacity="0.28" stroke="#F8FAFC" stroke-opacity="0.8" stroke-width="1.5" stroke-dasharray="4 2.5"/>
+  <circle cx="84" cy="75.5" r="4.5" stroke="#38BDF8" stroke-width="1.8"/>
+  <circle cx="84" cy="75.5" r="1.8" fill="#FFFFFF"/>
+  <rect x="70" y="90" width="18" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.4"/>
+
+  <!-- Home indicator -->
+  <rect x="75" y="102.5" width="18" height="2.6" rx="1.3" fill="#FFFFFF" fill-opacity="0.88"/>
+
+  <!-- QA Verified Checkmark Badge (top right) -->
+  <circle cx="98" cy="30" r="15" fill="url(#badgeGrad)" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M91.5 30.2 L96.2 35 L105 25.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
